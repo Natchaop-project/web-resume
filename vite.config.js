@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss()],
-    base: '/web-resume/',
+    base: 'Natchanop-project/web-resume',
     build: {
     chunkSizeWarningLimit: 1000, // ปรับ limit ให้สูงขึ้น
   },
