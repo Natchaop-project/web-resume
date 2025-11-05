@@ -3,8 +3,7 @@
 // This component uses Tailwind CSS and Framer Motion for a modern resume layout
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
+
 
 
 export default function ResumeContainer() {
