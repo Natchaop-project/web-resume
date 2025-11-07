@@ -3,7 +3,7 @@
 // This component uses Tailwind CSS and Framer Motion for a modern resume layout
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
-
+import myImage from './assets/profile-pic.jpg';
 
 
 export default function ResumeContainer() {
@@ -21,7 +21,7 @@ export default function ResumeContainer() {
         <motion.header variants={fadeUp} className="mb-6 flex justify-center items-center gap-4">
           <div className="h-50 w-50 overflow-hidden rounded-full bg-gray-200">
             <img
-              src="/src/assets/profile-pic.jpg"
+              src={myImage}
               alt="Profile"
               className="h-full w-full object-cover"
             />
