@@ -8,6 +8,7 @@ export default defineConfig({
     tailwindcss()],
     base: '/web-resume',
     build: {
-    chunkSizeWarningLimit: 1000, // ปรับ limit ให้สูงขึ้น
+    chunkSizeWarningLimit: 1000,// ปรับ limit ให้สูงขึ้น
+    outDir: 'docs' // กําหนด outDir
   },
 })
