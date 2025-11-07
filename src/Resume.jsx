@@ -1,7 +1,7 @@
 // ResumeContainer.jsx
 // Fixed Tailwind config issue: Ensure @tailwindcss/vite is either installed or removed from vite.config.js
 // This component uses Tailwind CSS and Framer Motion for a modern resume layout
-import React, { useRef } from 'react';
+
 import { motion } from 'framer-motion';
 import myImage from './assets/profile-pic.jpg';
 
