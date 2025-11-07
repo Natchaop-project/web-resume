@@ -9,6 +9,7 @@ export default defineConfig({
     base: '/web-resume',
     build: {
     chunkSizeWarningLimit: 1000,// ปรับ limit ให้สูงขึ้น
-    outDir: 'docs' // กําหนด outDir
+    outDir: 'dist',// กําหนด outDir
+
   },
 })
