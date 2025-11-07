@@ -42,7 +42,7 @@ export default function ResumeContainer() {
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className='hover:text-red-300'>📍 <a href="https://maps.app.goo.gl/XH4Li4ms7vSFxcf67">Khon Kaen, Thailand</a></li>
                 <li>✉️ domenatchanop@gmail.com</li>
-                <li className='hover:text-red-300'>🔗<a href="github.com/natchanop">github.com/natchanop</a></li>
+                <li className='hover:text-red-300'>🔗<a href="https://github.com/Natchaop-project">github.com</a></li>
                 <li className='hover:text-red-300'>📷<a href="https://www.instagram.com/dx__dnm/"> Instagram</a></li>
               </ul>
             </div>
