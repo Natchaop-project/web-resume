@@ -3,7 +3,7 @@
 // This component uses Tailwind CSS and Framer Motion for a modern resume layout
 
 import { motion } from 'framer-motion';
-import myImage from './assets/profile-pic.jpg';
+import myImage from '../assets/images/profile-pic.jpg';
 
 
 export default function ResumeContainer() {
@@ -12,13 +12,14 @@ export default function ResumeContainer() {
   
   return (
     <div className="min-h-screen from-gray-50 to-white py-12 px-4">
+
       <motion.div
         initial="hidden"
         animate="visible"
         variants={{ visible: { transition: { staggerChildren: 0.08 } } }}
         className="mx-auto max-w-4xl "
       >
-        <motion.header variants={fadeUp} className="mb-6 flex justify-center items-center gap-4">
+        <motion.header variants={fadeUp} className="mb-6 flex justify-center items-center gap-10 text-center">
           <div className="h-50 w-50 overflow-hidden rounded-full bg-gray-200">
             <img
               src={myImage}
@@ -28,7 +29,7 @@ export default function ResumeContainer() {
           </div>
 
           <div>
-            <h1 className="text-2xl font-semibold leading-tight">Natchanop Maliros</h1>
+            <h1 className="text-2xl font-bold leading-tight">Natchanop Maliros</h1>
             <p className="text-sm text-gray-600">Frontend Developer • React / JavaScript</p>
           </div>
 
@@ -102,8 +103,7 @@ export default function ResumeContainer() {
                   <p className="my-2 text-sm text-gray-700">
                     Developed a movie recommendation system using algorithms and user data to analyze preferences and suggest movies that best match users’ interests.
                   </p>
-                  <a className='text-sm cursor-pointer rounded-full border px-3 py-1  text-gray-700 shadow-sm hover:bg-blue-200' href="https://github.com/Natchaop-project/Recommender-system">🔗github</a>
-                  <a className='mx-2 text-sm cursor-pointer rounded-full border px-3 py-1  text-gray-700 shadow-sm hover:bg-blue-200' href="https://web-movies-recommender-system.vercel.app/">preview</a>
+                  
                 
                 </article>
 
