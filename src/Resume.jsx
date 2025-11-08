@@ -99,9 +99,10 @@ export default function ResumeContainer() {
                 <article>
                   <h4 className="text-sm font-semibold">Final Project (2023)</h4>
                   <p className="text-sm">Recommender System on Web by Python</p>
-                  <p className="mt-2 text-sm text-gray-700">
+                  <p className="my-2 text-sm text-gray-700">
                     Developed a movie recommendation system using algorithms and user data to analyze preferences and suggest movies that best match users’ interests.
                   </p>
+                  <a className='text-sm cursor-pointer rounded-full border px-3 py-1  text-gray-700 shadow-sm hover:bg-blue-200' href="https://github.com/Natchaop-project/Recommender-system">🔗github</a>
                 </article>
 
                 <article>
