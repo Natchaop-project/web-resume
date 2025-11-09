@@ -37,13 +37,13 @@ function Home() {
           <div className="flex flex-wrap justify-center md:justify-start gap-4 text-base sm:text-lg font-medium my-4">
             <Link
               to="/web-resume/resume"
-              className="shadow-2xl bg-sky-500 text-white rounded-full px-6 py-2 hover:bg-gray-200 hover:text-black transition duration-200"
+              className="shadow-2xl bg-sky-500 text-white rounded-full px-6 py-2 hover:bg-gray-300 hover:text-black transition duration-200"
             >
               Resume
             </Link>
             <Link
               to="/web-resume/project"
-              className="shadow-2xl bg-gray-100 border rounded-full px-6 py-2 hover:bg-sky-500 hover:text-black transition duration-200"
+              className="shadow-2xl bg-gray-300 hover:text-white rounded-full px-6 py-2 hover:bg-sky-500 transition duration-200"
             >
               Projects
             </Link>

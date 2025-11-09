@@ -15,7 +15,7 @@ function Project() {
                     Developed a movie recommendation system using algorithms and user data to analyze preferences and suggest movies that best match users’ interests.
                   </p>
                   <div>
-                    <a className='bg-sky-500 rounded-full shadow-xl hover:shadow-none text-white px-2 py-1 hover:bg-gray-700' href="https://web-movies-recommender-system.vercel.app/">demo</a>
+                    <a className='transition duration-200 bg-sky-500 rounded-full shadow-xltext-white px-2 py-1 hover:bg-gray-300 hover:text-black' href="https://web-movies-recommender-system.vercel.app/">demo</a>
                   </div>
                   <div className='my-2 md:flex gap-2 '>
                     <img className='w-2/5 size-cover' src={Img1} alt="" />
