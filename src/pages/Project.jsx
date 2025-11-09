@@ -7,7 +7,7 @@ function Project() {
       <section className="mt-4 rounded-2xl p-10 shadow-lg">
               <h3 className="mb-4 text-xl font-bold text-shadow-2xs">Projects</h3>
 
-              <div className="space-y-4">
+              <div className="">
                 <article>
                   <h4 className="text-sm font-semibold">Final Project (2023)</h4>
                   <p className="text-sm">Recommender System</p>
@@ -17,7 +17,7 @@ function Project() {
                   <div>
                     <a className='rounded-full border-2 px-2 hover:bg-gray-700 hover:text-white' href="https://web-movies-recommender-system.vercel.app/">demo</a>
                   </div>
-                  <div className='flex gap-2'>
+                  <div className='md:flex gap-2'>
                     <img className='w-2/5 size-cover' src={Img1} alt="" />
                     <img className='w-2/5 size-cover' src={Img2} alt="" />
                   </div>
